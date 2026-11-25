@@ -11,7 +11,7 @@
 | Mata Kuliah | Teori Sistem Terdistribusi dan Terdesentralisasi |
 | Program Studi | S1 Informatika |
 | Kode Mata Kuliah | FIF25002T |
-| Pertemuan | 1 |
+| Pertemuan | 2 |
 | Topik Materi | Pengenalan Sistem Terdistribusi dan Terdesentralisasi |
 | Dosen Pengampu | Dr. Bambang Purnomosidi D. P. |
 | Institusi | Universitas Teknologi Digital Indonesia (UTDI) |
@@ -316,7 +316,7 @@ Pemilihan antara komunikasi sinkron dan asinkron bergantung pada apakah proses p
 - Nama AI: Gemini AI
 - Pengembang: OpenAI.
 - Tujuan penggunaan: Membantu membaca, memahami, merangkum, mengembangkan, dan mengevaluasi materi perkuliahan.
-- Sumber utama: File PDF pertemuan pertama yang diberikan oleh dosen.
+- Sumber utama: File PDF pertemuan kedua yang diberikan oleh dosen.
 - Format hasil: Markdown (.md).
 
 ### 2. Prompt yang Digunakan
