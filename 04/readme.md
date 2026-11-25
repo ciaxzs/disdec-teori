@@ -4,16 +4,14 @@
 
 ### A. IDENTITAS MATERI
 
-- **Mata Kuliah:** Teori Sistem Terdistribusi dan Terdesentralisasi (Kode: FIF25002T / 3 SKS)
-- **Program Studi:** S1 Informatika
-- **Universitas:** Universitas Teknologi Digital Indonesia (UTDI)
-- **Pertemuan:** 4
-- **Topik Materi:** Konsistensi dan Replikasi pada Sistem Terdistribusi
-- **Dosen Pengampu:** Dr. Bambang Purnomosidi D. P.
-- **Sumber Materi:** `04--konsistensi-dan-replikasi.pdf`
-- **AI yang Digunakan:** Gemini
-- **Format Dokumen:** Markdown (`README.md`)
-
+| Keterangan | Informasi |
+|---|---|
+| Mata Kuliah | Teori Sistem Terdistribusi dan Terdesentralisasi |
+| Pertemuan | Pertemuan ke-4 |
+| Topik Materi | Konsistensi dan Replikasi pada Sistem Terdistribusi |
+| Sumber Materi | 04--konsistensi-dan-replikasi (1).pdf |
+| AI yang Digunakan | ChatGPT GPT-6 |
+| Format Dokumen | Markdown (.md) |
 ---
 
 ### B. TUJUAN PEMBELAJARAN
@@ -234,30 +232,36 @@ Dalam penyusunan rangkuman materi Pertemuan 4 ini, AI digunakan sebagai alat ban
 
 **AI yang digunakan:**
 
-Gemini.
+### 1. AI yang Digunakan
 
-**Prompt yang digunakan:**
+- Nama AI: ChatGPT GPT-6
+- Tujuan penggunaan: Membantu memahami, menganalisis, menyusun, dan mengembangkan rangkuman materi perkuliahan.
+- Sumber utama: Materi perkuliahan yang diberikan oleh dosen, yaitu file `04--konsistensi-dan-replikasi (1).pdf`.
 
-AI diberikan instruksi untuk meneliti file materi perkuliahan Pertemuan 4 (`04--konsistensi-dan-replikasi.pdf`) dan menyusun rangkuman laporan dengan mengikuti struktur dan susunan yang sama persis dengan template laporan yang diberikan.
+### 2. Prompt yang Digunakan
 
-Instruksi yang diberikan mencakup:
+Berikut prompt yang digunakan untuk menghasilkan rangkuman:
 
-1. Membaca dan meneliti seluruh halaman PDF materi Pertemuan 4.
-2. Menyusun rangkuman secara runtut berdasarkan isi dan konsep yang terdapat di dalam materi perkuliahan tanpa mengarang informasi di luar materi sumber.
-3. Menyamakan seluruh susunan laporan dari bagian A sampai G sesuai template yang diberikan, termasuk mencantumkan bagian `[MODIFIKASI]` pada setiap poin rangkuman maupun analisis.
-4. Membedakan informasi dari materi sumber dengan tambahan penjelasan menggunakan tanda `[MODIFIKASI]`.
-5. Menghasilkan dokumen Markdown yang siap digunakan sebagai `README.md` di repository GitHub.
+> Analisis seluruh isi file PDF materi Teori Sistem Terdistribusi dan Terdesentralisasi pertemuan 4 yang saya lampirkan. Susun rangkuman lengkap dalam format Markdown dengan mengikuti template README bagian A sampai G yang telah saya berikan.
+>
+> Gunakan materi dosen sebagai sumber utama dan pertahankan istilah serta konsep sesuai materi. Kembangkan penjelasan agar mudah dipahami, tambahkan contoh penerapan yang relevan dengan bidang Informatika, serta berikan analisis terhadap konsep yang dibahas.
+>
+> Pastikan pembahasan mencakup pengertian konsistensi, pentingnya konsistensi, Teorema CAP, model konsistensi, trade-off latensi dan konsistensi, pengertian replikasi data, jenis replikasi, strategi sinkronisasi replika, penanganan konflik menggunakan LWW, Vector Clocks, CRDT dan OT, serta protokol replikasi seperti Primary-Based, Quorum-Based, State Machine Replication, Gossip Protocol, dan Chain Replication.
+>
+> Sertakan contoh perhitungan quorum dan contoh penggabungan data menggunakan CRDT sesuai materi. Jelaskan studi kasus PostgreSQL 18 Streaming Replication dan Apache Ignite 3 Master-Master hanya berdasarkan informasi yang tersedia. Jika lecture notes atau source code pendukung tidak tersedia, jangan mengarang hasil implementasinya.
+>
+> Gunakan bahasa Indonesia yang natural seperti laporan mahasiswa S1 Informatika, bukan bahasa yang terlalu kaku. Jangan mengarang fakta atau referensi. Berikan hasil akhir berupa README lengkap yang siap dimasukkan ke repository GitHub.
 
-**Bagian yang disesuaikan:**
+### 3. Bagian yang Disesuaikan dari Keluaran AI
 
-AI membantu menyusun penjelasan materi berdasarkan slide perkuliahan, mengelompokkan subtopik agar sistematis, menyusun tabel perbandingan, melengkapi setiap poin rangkuman dengan catatan `[MODIFIKASI]`, serta merumuskan bagian contoh penerapan dan analisis yang mengacu pada studi kasus dalam materi.
+Bagian dari hasil rangkuman yang dikembangkan atau disesuaikan meliputi:
 
-**Keterangan `[MODIFIKASI]`:**
+1. **Pengertian dan Model Konsistensi:** Penjelasan diperluas dengan membandingkan Strong Consistency, Eventual Consistency, Causal Consistency, Read-Your-Writes, Monotonic Read, Sequential Consistency, dan Linearizability beserta contoh penerapannya.
+2. **Teorema CAP dan Trade-off Latensi:** Pembahasan dikembangkan dengan menggunakan contoh aplikasi e-commerce dan dua pusat data agar hubungan antara konsistensi, ketersediaan, toleransi partisi, serta waktu respons lebih mudah dipahami.
+3. **Jenis dan Strategi Replikasi:** Penjelasan mengenai Master-Slave, Multi-Master, Synchronous, Asynchronous, Semi-Synchronous, Pull-Based, Push-Based, dan Hybrid disusun dengan membandingkan cara kerja serta kelebihan dan keterbatasannya.
+4. **Penanganan Konflik dan Protokol Replikasi:** Contoh CRDT, Operational Transformation, Quorum-Based, State Machine Replication, Gossip Protocol, dan Chain Replication dikembangkan dengan penjelasan tahapan kerja dan contoh yang sesuai dengan materi.
 
-Tanda `[MODIFIKASI]` digunakan untuk menunjukkan penjelasan tambahan atau elaborasi analisis yang disusun oleh AI untuk membantu pemahaman. Bagian tersebut bukan merupakan kutipan langsung dari materi dosen.
-
-Hasil rangkuman tetap perlu diperiksa dan dipahami kembali oleh mahasiswa sebelum digunakan sebagai tugas perkuliahan.
-
+Penyesuaian dilakukan untuk memperjelas pemahaman materi, memperbaiki penjelasan yang kurang lengkap, serta menambahkan contoh dan analisis yang relevan dengan bidang Informatika.
 ---
 
 ### F. KESIMPULAN
