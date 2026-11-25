@@ -281,7 +281,7 @@ Berikut prompt yang digunakan dalam proses penyusunan rangkuman:
 
 **Prompt 1 — Analisis dan Rangkuman Materi**
 
-> Kamu adalah mahasiswa S1 Informatika yang sedang mempelajari mata kuliah Teori Sistem Terdistribusi dan Terdesentralisasi. Saya akan memberikan materi PDF dari dosen untuk pertemuan pertama.
+> Kamu adalah mahasiswa S1 Informatika yang sedang mempelajari mata kuliah Teori Sistem Terdistribusi dan Terdesentralisasi. Saya akan memberikan materi PDF dari dosen untuk pertemuan ketiga.
 >
 > Baca dan analisis seluruh isi PDF secara menyeluruh. Identifikasi tujuan pembelajaran, agenda pembahasan, konsep utama, istilah teknis, contoh penerapan, dan kesimpulan dari materi.
 >
